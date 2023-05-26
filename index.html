@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="animated-title">The Holocaust: A Tragic Chapter of History</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+  <header>
+    <h1>The Holocaust</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="timeline.html">Timeline</a></li>
+      <li><a href="victims.html">Victims</a></li>
+      <li><a href="legacy.html">Legacy</a></li>
+    </ul>
+  </nav>
+
+  <main id="particles-js">
+    <div id="popup-character" class="popup-character">
+      <img id="character-image" src="src/img/hitler/hitler.png" alt="Character">
+    </div>
+    
+    <h2>What was the Holocaust?</h2>
+    <p>The Holocaust, also known as the Shoah, was the systematic persecution and murder of approximately six million Jews by Nazi Germany and its collaborators during World War II. The Holocaust also targeted other groups, including Roma, people with disabilities, and homosexuals, among others.</p>
+    <p>The Holocaust was characterized by a series of state-sponsored policies and actions that sought to dehumanize and eliminate Jews and other "undesirable" groups from society. These policies included discriminatory laws, ghettos, forced labor camps, concentration camps, and ultimately extermination camps such as Auschwitz and Treblinka.</p>
+
+    <div class="slideshow-container fade">
+  <div class="Containers">
+    <div class="MessageInfo"></div>
+    <img src="src/img/10689_kz-auschwitz-tor-stammlager.jpg" style="width:100%">
+    <div class="Info">1 / 3</div>
+  </div>
+  <div class="Containers">
+    <div class="MessageInfo"></div>
+    <img src="src/img/_122924137_gettyimages-89277106.jpg" style="width:100%">
+    <div class="Info">2 / 3</div>
+  </div>
+  <div class="Containers">
+    <div class="MessageInfo"></div>
+    <img src="src/img/auschwitz-belongings.jpg" style="width:100%">
+    <div class="Info">3 / 3</div>
+  </div>
+  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+</div>
+
+<blockquote>"The Holocaust was the state-sponsored, systematic persecution and annihilation of European Jewry by Nazi Germany and its collaborators between 1933 and 1945. Jews were the primary victims —six million were murdered; Roma and Sinti (Gypsies), people with disabilities, and Poles were also targeted for destruction or decimation for racial, ethnic, or national reasons. Millions more, including homosexuals, Jehovah's Witnesses, Soviet prisoners of war, and political dissidents, also suffered grievous oppression and death under Nazi tyranny."</blockquote>
+    <footer>
+      <p>&copy; 2023 | Andrei Giuliano Mario - Liceul Tehnologic Alexandru Ioan Cuza</p>
+    </footer>
+
+  </main>
+  <script src="src/js/movingImage.js" defer></script>
+  <script src="src/js/cursor.js" defer></script>
+  <script src="src/js/moving-title.js" defer></script>
+  <script src="src/js/carousel.js" defer></script>
+  </body>
+</html>
